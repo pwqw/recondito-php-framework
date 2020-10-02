@@ -1,0 +1,11 @@
+# No lista la lista de carpetas
+Options -Indexes
+
+# Deniega el acceso desde afuera
+deny from all
+
+# Oculta el htaccess
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>

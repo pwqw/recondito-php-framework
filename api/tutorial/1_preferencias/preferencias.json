@@ -1,0 +1,15 @@
+{
+  "nombre": "",
+  "slogan": "",
+  "alguna_url": "",
+  "social": [
+    { "label": "Facebook",  "icon": "facebook",   "url": "https://www.facebook.com/tirate-un-chivo" },
+    { "label": "YouTube",   "icon": "youtube",    "url": "https://www.youtube.com/por-tv-y-cantá" },
+    { "label": "Instagram", "icon": "instagram",  "url": "https://www.instagram.com/como_un_campeón" },
+    { "label": "Twitter",   "icon": "twitter",    "url": "https://twitter.com/pasala vó" }
+  ],
+  "menu": {
+    "titulo": "Menú del día",
+    "descripcion": "Tortafritas con lluvia, empanadas de ayer (que están buenísimas), mesa de mate, y yerba buena.",
+  }
+}
