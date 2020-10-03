@@ -1,8 +1,6 @@
 <?php
 /* 
  * La onda de esto es simplificar el envío automático de mensajes
- *
- * ¡Que les sea muy útil!
  * 
  * ---------------------------------------------------------------------*
  *
@@ -21,8 +19,8 @@
  * 0. You just DO WHAT THE FUCK YOU WANT TO.
  */
 
-include("class.smtp.php");
-include("class.phpmailer.php");
+include("../lib/class.smtp.php");
+include("../lib/class.phpmailer.php");
 
 class Sender
 {
