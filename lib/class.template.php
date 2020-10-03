@@ -4,7 +4,7 @@
  *
  * Este código es tan simple como complejo al mismo tiempo,
  * y reside en la CALIDAD de implementar un sistema de plantillas
- * con variables en un leguaje púramente de plantillado como es PHP.
+ * con variables, en un leguaje púramente de plantillado como es PHP 🤷
  * 
  * ¡Que les sea muy útil!
  * 
