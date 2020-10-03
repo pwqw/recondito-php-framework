@@ -26,11 +26,11 @@ include "../../lib/sql.php";
 
 $artesanias = query("SELECT * FROM artesanias"); // WHERE home REGEXP '^[0-9]+$' order by orden ASC, id ASC
 
-foreach($artesanias as $i => $artesaniaa) {
+foreach($artesanias as $i => $artesania) {
     $artesanias[$i]['imagen'] = 'https://dummyimage.com/256x256/000000/ff8000.jpg&text=Imágen ejemplo';
 }
 
-$json_artesaniaas = json_encode($artesanias);
+$json_artesanias = json_encode($artesanias);
 
 die('{
     "version": '. crc32($json_artesanias) .',
